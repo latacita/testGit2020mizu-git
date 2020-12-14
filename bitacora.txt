@@ -6,7 +6,15 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+06     checkout idCommit
+07     checkout -b Antecedentes
+08     ----
+09     add + commit
 10     checkout master
 11     push origin -u DatosPersonales
 12	   Tendrían que ser recursivas
 13     add + commit
+14     merge Antecedentes --no-ff   Al realizar la fusión, se detectan
+								    conflictos.
+15 	   commit "Conflictos resueltos"
+
