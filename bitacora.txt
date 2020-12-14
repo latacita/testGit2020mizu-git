@@ -6,3 +6,7 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+10     checkout master
+11     push origin -u DatosPersonales
+12	   Tendrían que ser recursivas
+13     add + commit
