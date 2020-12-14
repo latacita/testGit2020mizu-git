@@ -1,11 +1,16 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):      Hamda Hamza                     %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+01 	   clone
+02     checkout -b DatosPersonales
+03     ----
+04     ----
+05     add + commit
 06     checkout idCommit
 07     checkout -b Antecedentes
 08     ----
@@ -17,4 +22,6 @@
 14     merge Antecedentes --no-ff   Al realizar la fusión, se detectan
 								    conflictos.
 15 	   commit "Conflictos resueltos"
-
+16     merge Antecedentes --no-ff   Al realizar la fusión, se detectan
+								    conflictos.
+15 	   commit "Conflictos resueltos"								   
