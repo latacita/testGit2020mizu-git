@@ -26,3 +26,12 @@
 								    conflictos.
 17 	   commit "Conflictos resueltos"	
 18     add + commit 							   
+19     tag FusionTerminada
+20     pull +                       Al realizar el pull de master se 
+									detectan conflictos
+	   commit "Conflicto resueltos"							
+       push --tags origin master:master
+21     add + commit + 
+       source tree: push, se seleccionan
+       todas las ramas y se pulsa el boton
+       push
