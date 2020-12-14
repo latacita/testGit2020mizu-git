@@ -24,4 +24,5 @@
 15 	   commit "Conflictos resueltos"
 16     merge Antecedentes --no-ff   Al realizar la fusión, se detectan
 								    conflictos.
-15 	   commit "Conflictos resueltos"								   
+17 	   commit "Conflictos resueltos"	
+18     add + commit 							   
